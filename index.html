@@ -1,0 +1,85 @@
+<html lang="ja">
+<head>
+  <!-- ********************************* -->
+  <title>立命館大学物理科学研究会 公式HP</title>
+  <!-- ********************************* -->
+  <meta charset="utf-8">
+  <meta name="author" content="立命館大学物理科学研究会">
+  <meta name="keywords" content="立命館大学,物理科学研究会,立命館,立命,物理,サークル">
+  <meta name="description" content="こんにちは、こちらは立命館大学物 理科学研究会公式HPです。新歓や学園祭情報なども書いてあるのでぜひご確認ください！　他にもうちのHPが乱立してますが、これが最新です（2019年度現在）。物理科学研究会、略して物科研（vuccaken）です！">
+  <link rel="stylesheet" type="text/css" href="css/kouzou.css"/>
+  <link rel="stylesheet" type="text/css" href="css/color.css"/>
+  <link rel="stylesheet" type="text/css" href="css/toppage.css"/>
+</head>
+
+<body>
+  <div id="wrapper" style="position:relative">
+
+    <div id="right" >
+      <div id="header"><p>立命館大学<br>物理科学研究会（旧・核物理研究会）HP</p></div>
+      <div id="img01"><img src="img/tesla_th.jpg"/></div>
+
+　　　<div id="textttt" style="position:absolute;left:720;top:180;">
+             <font color="white">ようこそおおおお！！！</font>
+          </div>
+      <div id="time" style="position:absolute;left:350;top:180;">
+         <font color="white">
+             <script>
+                 var jikan= new Date();
+                 var hour = jikan.getHours();
+                 var minute = jikan.getMinutes();
+                 var second = jikan.getSeconds();
+                 document.write(hour+"時",+minute+"分"+second+"秒");
+                 function koshin(){
+                    location.reload();
+                 }
+            </script>
+         </font>
+         <input type="button"  value="更新" onclick="koshin()">
+      </div>
+
+      <div id="news">
+        <p><a href="news.html">News</a></p>
+        <div class="frame_wrap">
+          <iframe class="frame" src="news.html" frameborder="0"></iframe>
+        </div>
+      </div>
+
+      <div id="twitter">
+        <p><a href="https://twitter.com/vuccaken">Twitter</a></p>
+        <div id="waku">
+          <a class="twitter-timeline" data-lang="ja"
+          data-width="300"
+          data-height="300"
+          data-chrome="noheader nofooter transparent"
+          href="https://twitter.com/vuccaken">Tweets by vuccaken</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="left">
+      <div id="logo"><a href="index.html"><img src="img/logo.png"/></div>
+      <div id="nav">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="member.html">Member</li>
+            <li><a href="activity.html">Activity</a></li>
+            <li><a href="database.html">Database</a></li>
+            <li><a href="link.html">Link</a></li>
+            <li><a href="special.html">Special</a></li>
+            <!-- <li><a href="template.html">Template</a></li> -->
+          </ul>
+      </div>
+      <div id="address">
+        <p>連絡先：</p><p id="at">vuccaken@gmail.com</p><br>
+        <p>Twitter：</p><p id="at">@vuccaken</p>
+      </div>
+    </div>
+
+
+    <div id="footer"><a href="template.html">&copy;</a>2017- 立命館大学物理科学研究会</div>
+  </div>
+</body>
+
+</html>

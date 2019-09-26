@@ -1,0 +1,27 @@
+/*about*/
+
+
+/*member*/
+table {
+	border-collapse: collapse;
+}
+.imgspace img{
+  height: 170px;
+  /*width: 170px;*/
+}
+.imgspace{
+  height: 180px;
+  width: 170px;
+  text-align: center;
+}
+.prof{
+  margin-left: 10px;
+}
+/* tr, td{
+  border: solid 1px #000;
+} */
+
+/*special*/
+/* .gallery img{
+
+} */

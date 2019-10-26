@@ -18,25 +18,38 @@
 
     <div id="right" >
       <div id="header"><p>立命館大学<br>物理科学研究会（旧・核物理研究会）HP</p></div>
-      <div id="img01"><img src="img/tesla_th.jpg"/></div>
+      <div id="img01">
+        <img src="img/tesla_th.jpg"/>
+      </div>
 
-　　　<div id="textttt" style="position:absolute;left:720;top:180;">
-             <font color="white">ようこそおおおお！！！</font>
-          </div>
+      <div id="new-hp" style="position:absolute;left:550;top:210;">
+        <a href="http://vuccaken.github.io" target="_blank">新HPへGO！！！！</a>
+      </div>
+      <style>
+        #new-hp a {
+          color: #0f0;
+        }
+        #new-hp a:hover {
+          color: tomato;
+        }
+      </style>
+      <div id="textttt" style="position:absolute;left:720;top:180;">
+        <font color="white">ようこそおおおお！！！</font>
+      </div>
       <div id="time" style="position:absolute;left:350;top:180;">
-         <font color="white">
-             <script>
-                 var jikan= new Date();
-                 var hour = jikan.getHours();
-                 var minute = jikan.getMinutes();
-                 var second = jikan.getSeconds();
-                 document.write(hour+"時",+minute+"分"+second+"秒");
-                 function koshin(){
-                    location.reload();
-                 }
-            </script>
-         </font>
-         <input type="button"  value="更新" onclick="koshin()">
+        <font color="white">
+          <script>
+            var jikan= new Date();
+            var hour = jikan.getHours();
+            var minute = jikan.getMinutes();
+            var second = jikan.getSeconds();
+            document.write(hour+"時",+minute+"分"+second+"秒");
+            function koshin(){
+              location.reload();
+            }
+          </script>
+        </font>
+        <input type="button"  value="更新" onclick="koshin()">
       </div>
 
       <div id="news">
